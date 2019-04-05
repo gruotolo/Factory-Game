@@ -41,6 +41,7 @@ function scene:create( event )
 	
 	-- create/position logo/title image on upper-half of the screen
 	local titleLogo = display.newImageRect( "logo.png", 264, 42 )
+	titleLogo.xScale =.8;
 	titleLogo.x = display.contentCenterX
 	titleLogo.y = 100
 	
